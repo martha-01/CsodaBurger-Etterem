@@ -8,7 +8,7 @@
     <title>Rendelés</title>
 </head>
 
-<body>
+<body style="background-image: url('https://cdn.pixabay.com/photo/2016/01/14/18/37/wood-1140564_960_720.jpg')">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -16,22 +16,25 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div style="background-color:gold" class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Főoldal<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html"><b>Főoldal</b><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="latest.html">Újdonságaink</a>
+                    <a class="nav-link" href="latest.html"><b>Újdonságaink</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="menu.html">Menü</a>
+                    <a class="nav-link" href="special_offers.html"><b>Akcióink</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="orders.html">Rendelés</a>
+                    <a class="nav-link" href="menu.html"><b>Étlap</b></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">Rólunk</a>
+                    <a class="nav-link" href="orders.html"><b>Rendelés</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><b>Rólunk</b></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -51,20 +54,154 @@
             </form>
         </div>
     </nav>
-    <hr>
-    <h3>Így adhatja le rendelését:</h3>
-    <ol>
-        <li>A "Menü"-oldalon válassza ki, hogy melyik burger-ünket szeretné kipróbálni!</li>
-        <li>Adja meg, hogy milyen extra-feltétet szeretne!</li>
-        <li>A "Rendelés"-oldalon adja meg a kiszállítási címet!</li>
-        <li>Kezdeményezzen egy megrendelés-tranzakciót!</li>
-        <li>Fizesse ki rendelését!</li>
-        <li>A "Rólunk"-oldalon, kérjük, adjon visszajelzést arról, hogy milyennek találta szolgáltatásunkat!</li>
-    </ol>
-    <h3>Köszönjük, hogy minket választott!</h3>
-    <h4>Napi specialitásaink napról-napra megújulnak!</h4>
-    <h4>Reméljük hamarosan újra vendégeink között üdvözölhetjük!</h4>
-    <p></p>
+    <br>
+    <br>
+    <div style="background-color:gold" class="container">
+        <br>
+        <br>
+        <h3>Így adhatod le a rendelésed:</h3>
+        <ol>
+            <li>Add meg az adataidat!</li>
+            <li>Add meg, hogy milyen hamburgert szeretnél!</li>
+            <li>Add meg, hogy milyen extra-feltétet szeretnél rá!</li>
+            <li>Kezdeményezz egy megrendelés-tranzakciót!</li>
+            <li>Fizesd ki a rendelésed!</li>
+            <li>Adj visszajelzést arról, hogy milyennek találtad a szolgáltatásunkat!</li>
+        </ol>
+        
+        <div class="row">
+            <div class="col-12">
+
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1" class="col-4">Email-cím: </label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">Email-címedet bizalmasan kezeljük.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1" class="col-4">Jelszó: </label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <hr>
+                </form>
+
+                <br>
+
+                <form>
+                    <div class="form-group" class="form-horizontal">
+                        <label class="col-4" for="name">Add meg a neved: </label>
+                        <div><input type="text" class="form-control" id="name"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-4" for="telephoneNumber">Add meg a telefonszámod: </label>
+                        <input type="text" class="form-control" id="telephoneNumber">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-6" for="address_district">Hova vigyük a pizzát? Add meg a kerületet: </label>
+                        <select class="form-control" id="address_district" multiple>
+                            <option>I.</option>
+                            <option>II.</option>
+                            <option>III.</option>
+                            <option>IV.</option>
+                            <option>V.</option>
+                            <option>VI.</option>
+                            <option>VII.</option>
+                            <option>VIII.</option>
+                            <option>IX.</option>
+                            <option>X.</option>
+                            <option>XI.</option>
+                            <option>XII.</option>
+                            <option>XIII.</option>
+                            <option>XIV.</option>
+                            <option>XV.</option>
+                            <option>XVI.</option>
+                            <option>XVII.</option>
+                            <option>XVIII.</option>
+                            <option>XIX.</option>
+                            <option>XX.</option>
+                            <option>XXI.</option>
+                            <option>XXII.</option>
+                            <option>XXIII.</option>
+                    </select>    
+                    </div>
+                    <div class="form-group">
+                        <label class="col-4" for="address_street">Add meg az utcát és a házszámot: </label>
+                        <input type="text" class="form-control" id="address_street">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-8" for="feedback">Kézbesítési címmel kapcsolatos megjegyzés: </label>
+                        <textarea class="form-control" id="feedback" cols="20" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-4" for="order">Milyen hamburgert kérsz? </label>
+                        <select class="form-control" id="order">
+                            <option>Smokey Applewood: 1790 Ft</option>
+                            <option>Sajtburger: 1390 Ft</option>
+                            <option>Tijuana Burger: 1790 Ft</option>
+                            <option>BBQ Burger: 1790 Ft</option>
+                            <option>Carnivore Burger: 2390 Ft</option>
+                            <option>West Coast: 1790 Ft</option>
+                            <option>Chickuna Burger: 1790 Ft</option>
+                            <option>Surf & Turf: 2190 Ft</option>
+                            <option>Sweet Home Avocado: 1990 Ft</option>
+                            <option>Say Cheese: 1790 Ft</option>
+                            <option>Chipotle: 1790 Ft</option>
+                            <option>Burger Tower: 3390 Ft</option>
+                            <option>DOUBLE DECKER: 3390 Ft</option>
+                            <option>HAMBURGER-TORTA: 13900 Ft</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-4" for="order">Milyen extra feltétet szeretnél rá? </label>
+                        <select class="form-control" id="order">
+                            <option>Buci helyett: salátalevél: + 0 Ft </option>
+                            <option>Cheddar/ Ropogós bacon/ Jalapeno/ Lilahagyma-lekvár/ Tojás/ Gomba: + 250 Ft </option>
+                            <option>Guacamole: + 550 Ft</option>
+                            <option>Húspogácsa: + 890 Ft</option>
+                            <option>300 gr hús, cheddar-sajttal töltve: + 890 Ft</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-4" for="order">Hány darabot kérsz belőle? </label>
+                        <select class="form-control" id="order">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-4" for="feedback">Visszajelzés: </label>
+                        <textarea class="form-control" id="feedback" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-2"><h5>Fizetendő: </h5></div>
+                        <div class="col-1" style="background-color:darkgoldenrod"><label>0</label></div>
+                        <div class="col-1">Ft</div>
+                        <div class="col-2">
+                            <button type="submit" class="btn btn-success">Beküldés</button>
+                        </div>  
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h3>Köszönjük, hogy minket választottál!</h3>
+        <h4>Napi specialitásaink napról-napra megújulnak!</h4>
+        <h4>Reméljük hamarosan újra vendégeink között üdvözölhetünk!</h4>
+    </div>
 </body>
 
 </html>
