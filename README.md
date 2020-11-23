@@ -1,2 +1,1 @@
-# martha-01.github.io
-Demo
+Ez a Csodaburger Étterem honlapja.
