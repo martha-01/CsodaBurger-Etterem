@@ -1,1 +1,1 @@
-Ez a Csodaburger Étterem honlapja.
+Ez a CsodaBurger Étterem honlapja.
